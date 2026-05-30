@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>观影指南 - 最新电视剧大全-最新剧集片库-热门片库持续更新</title>
+    <meta name="description" content="静态站点观影指南，说明分类、搜索与播放器使用方式。">
+    <meta name="keywords" content="最新电视剧大全,最新剧集,电视剧片库,片库更新,热播剧,高清剧集,影视更新">
+    <link rel="stylesheet" href="./assets/css/index-dfstxvhy.css">
+    <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-wrap">
+            <a class="logo" href="./index.html" aria-label="剧集片库首页">
+                <span class="logo-mark">▶</span>
+                <span>剧集片库</span>
+            </a>
+            <button class="mobile-menu-btn" type="button" data-menu-toggle aria-label="展开导航">☰</button>
+            <nav class="nav-links" data-nav-links>
+                <a class="nav-link" href="./index.html">首页</a>
+                <a class="nav-link" href="./categories.html">分类片库</a>
+                <a class="nav-link" href="./rank.html">热播榜</a>
+                <a class="nav-link active" href="./guide.html">观影指南</a>
+            </nav>
+            <form class="nav-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索片名 / 类型 / 地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+    </header>
+    <main class="page-main narrow">
+        <section class="page-hero small-hero">
+            <span>Guide</span>
+            <h1>观影指南</h1>
+            <p>通过首页焦点、分类片库、热播榜和搜索入口进入影片详情页，点击播放器即可开始播放。</p>
+        </section>
+        <section class="guide-card">
+            <h2>浏览方式</h2>
+            <p>首页展示焦点轮播、精选推荐、最新更新和分类预览；分类片库提供多个独立静态分类页；热播榜提供高权重影片入口。</p>
+            <h2>播放方式</h2>
+            <p>进入影片详情页后，点击播放器区域中央按钮会初始化 HLS 播放逻辑，并绑定对应播放源。</p>
+            <h2>移动端访问</h2>
+            <p>页面布局已适配手机、平板和桌面浏览器，导航、卡片、详情页和播放器会根据屏幕宽度自动调整。</p>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <strong>剧集片库</strong>
+            <span>最新电视剧大全栏目关注近期更新剧集内容，按地区、题材和热度持续整理。</span>
+        </div>
+    </footer>
+    <script src="./assets/js/site.js"></script>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</body>
+</html>
